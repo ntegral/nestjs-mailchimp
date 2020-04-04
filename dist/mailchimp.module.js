@@ -13,7 +13,9 @@ let MailchimpModule = MailchimpModule_1 = class MailchimpModule {
     static forRoot(options) {
         return {
             module: MailchimpModule_1,
-            imports: [mailchimp_core_module_1.MailchimpCoreModule.forRoot(options)],
+            imports: [
+                mailchimp_core_module_1.MailchimpCoreModule.forRoot(options),
+            ],
         };
     }
     static forRootAsync(options) {
