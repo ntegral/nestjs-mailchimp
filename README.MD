@@ -52,7 +52,7 @@ import { MailchimpModule } from '@ntegral/nestjs-wpapi';
 export class AppModule {}
 ```
 
-You can then inject the JsForce client into any of your injectables by using a
+You can then inject the Mailchimp client into any of your injectables by using a
 custom decorator
 
 ```typescript
